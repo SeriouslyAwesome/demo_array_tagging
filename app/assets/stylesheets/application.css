@@ -14,3 +14,27 @@
  *= require chosen
  *= require_self
  */
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background: #eee;
+}
+
+main {
+  width: 300px;
+  margin: 5% auto;
+  background: #fff;
+  padding: 2em;
+}
+
+label,
+input,
+textarea {
+  display: block;
+  width: 100%;
+}
+
+input,
+textarea,
+select,
+.chosen-container { margin-bottom: 2em; }

@@ -1,11 +1,8 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Name:</strong>
-  <%= @person.name %>
-</p>
+<h2>Hi! My name is <%= @person.name %>!</h2>
 
-<h2>States I've Been To</h2>
+<h2>States I've Been To:</h2>
 <% if @person.states_visited.any? %>
   <ul>
     <% @person.states_visited.each do |state| %>

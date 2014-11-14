@@ -1,2 +1,3 @@
 jQuery ->
-  $('.taggable').chosen()
+  $('.taggable').chosen
+    width: '100%'
