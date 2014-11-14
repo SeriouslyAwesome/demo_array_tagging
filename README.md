@@ -28,6 +28,7 @@ rails s
 ```
 
 ##Thanks
+* [Freddy Rangel](http://frederickrangel.com), my co-worker with whom I developed this technique
 * Quickie app generated with [Prelang](http://prelang.com)
 * UI made usable thanks to [Chosen.js](http://harvesthq.github.io/chosen/) by the folks at [Harvest](https://www.getharvest.com)
 * Max, at StackOverflow for [a nice workaround](http://stackoverflow.com/questions/8929230/why-is-the-first-element-always-blank-in-my-rails-multi-select-using-an-embedde/9085554#9085554) for a feature/bug in Rails' select form helper.
