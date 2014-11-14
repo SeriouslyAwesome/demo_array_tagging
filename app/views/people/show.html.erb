@@ -5,5 +5,15 @@
   <%= @person.name %>
 </p>
 
+<h2>States I've Been To</h2>
+<% if @person.states_visited.any? %>
+  <ul>
+    <% @person.states_visited.each do |state| %>
+      <li><%= state %></li>
+    <% end %>
+  </ul>
+<% end %>
+
+
 <%= link_to 'Edit', edit_person_path(@person) %> |
 <%= link_to 'Back', people_path %>

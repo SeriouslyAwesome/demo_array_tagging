@@ -12,8 +12,11 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :name %><br>
-    <%= f.text_field :name %>
+    <%= f.label :name, 'Your Name' %><br>
+    <%= f.text_field :name, placeholder: 'John/Jane Doe' %>
+
+    <%= f.label :states_visited, 'States You\'ve Been To' %>
+    <%= f.select :states_visited, MURICA, {}, { multiple: true, class: 'taggable' } %>
   </div>
   <div class="actions">
     <%= f.submit %>
